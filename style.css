@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-weight: 601;
+    font-family: 'Source Serif Pro', serif;
+}
+ /* chaning yhr colours and sizes of the header*/
+header{
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    padding: 11px ;
+    background-color: #f5ebdd;
+
+}
+
+nav{
+    margin-right: auto;
+    
+}
+/*positioning the logo*/
+.logo{ 
+    position: absolute;
+    cursor: pointer;
+    height: 80px;
+  
+    
+}
+
+
+
+.nav_links li {
+    display: inline-block;
+    padding: 1px 11px;
+}
+
+/*adjusting the links in the nav bar/header*/
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #502314;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*adjusting the links in the nav bar/header*/
+.nav_links li a:hover {
+    color: #D62300;
+}
+/*chnaing the size colours and fonts of the button*/
+button {
+    padding:10px 31px;
+    background-color: rgba(214, 35, 0, 1);
+    border: none;
+    border-radius: 51px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color:white; 
+    font-weight: 901;   
+}
+
+
+button:hover{
+    background-color:rgba(214, 35, 0, 0.7); ;
+}
+
+.button1{
+    padding: 26px;
+}
+
+
+.btn2{
+    padding: 10px 31px;
+    background-color: #502314;
+    margin-right: 20px;
+
+}
+
+.btn3{
+   position:absolute;
+   top: 71%;
+   left: 6%;
+   
+}
+
+.longer{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 4%;
+    background-color: #f5ebdd;
+}
+
+/*changing the sizes of the image  */
+.img2{
+    
+    border-radius: 30px;
+    max-width: 100%;
+    height: 50%;
+    width: 50%;
+    border: 2px solid white;
+    margin-bottom: -10px;
+}
+/*changing the sizes of the image  */
+.img3{
+    
+    border-radius: 30px;
+    max-width: 100%;
+    height: 50%;
+    width: 50%;
+    border: 2px solid white;
+    margin-bottom:  10x;
+    
+    
+    
+}
+/*changing the sizes of the image  */
+.img4{
+    
+    border-radius: 30px;
+    max-width: 100%;
+    height: 50%;
+    width: 50%;
+    border: 2px solid white;
+    
+}
+/*changing the sizes of the image  */
+.img5{
+border-radius: 30px;
+max-width: 100%;
+height: 50%;
+width: 50%;
+border: 2px solid white;
+    
+}
+
+.container{
+    background-color: #f5ebdd;
+    position: relative;
+    z-index: 1;
+}
+
+/*changing the sizes of the image  */
+.phone{
+    width: 41%;
+    height: 41%;
+}
+
+
+/*changing the sizes of the image  */
+.googleplay{
+  height:51px;
+  width: 151px;
+  margin-top:251px;
+}
+/*changing the sizes of the image  */
+.appstore{
+  height:50px;
+  width:150px;
+  margin-top:250px;
+  
+}
+/*  decoration the article */
+ article{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content:flex-start;
+    flex-flow: nowrap;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom,
+        #f5ebdd 0%,
+        #f5ebdd 40%,
+        #efe1cc 40%,
+        #efe1cc 100%
+    );
+}
+
+.h1{
+    font-size: 40px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    color: #502314;
+    width:50%;
+    
+   
+}
+
+/*decorating the footer*/
+footer{
+ color: #F5F5F5;
+ font-family: 'Anton', sans-serif;
+ background-color: rgb(80, 35, 20);
+ width: 100%;
+ display: flex;
+}
+
+/*taking aways any decoration before the link such such as dots */
+ul{
+	list-style: none;
+  display: inline;
+  padding-right: 300px;
+}
+/*showing how wide the footer is*/
+.footer{
+	background-color: rgb(80, 35, 20);
+   width: 100%;
+   padding: 0 55px;
+}
+
+/*changing the looks of the links*/
+.footer ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: grey;
+	text-decoration: none;
+}
+/*changing the hover to underline*/
+.footer ul li a:hover{
+  text-decoration: underline;
+}
+
+  
